@@ -139,6 +139,7 @@ object-fit: cover;
 
 footer {
   margin-top: 44px;
+  min-height: 50vh;
 }
 
 @media all and (max-width:700px) {
