@@ -1,9 +1,9 @@
 /* Set the scroll behavior to smooth so that when you click the in the header, the screen scrolls down rather than jumps */ html { scroll-behavior: smooth; } /* Set the margin to 0 to make sure the page stretches all the way to the edge of the browser window. */ body { margin: 0; }
 header, footer {
-  background-color: #ffa500;
+  background-color: #9a8c98;
   text-align: left;
   /* min-width: 500px; */
-  font-family: Work Sans;
+  font-family: 'Halant', serif;
   color: #fff;
   min-height: 100vh;
   display: flex;
@@ -20,7 +20,7 @@ main {
 }
 
 h1 {
-  font-family: Poppins;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: calc(1em + 3vw);
   padding-bottom: .67em;
   border-bottom: 1px solid;
@@ -28,12 +28,12 @@ h1 {
 }
 
 h2 {
-  font-family: Poppins;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 18px;
   font-weight: 600;
   letter-spacing: 0.3px;
   text-align: left;
-  color: #ffa500;
+  color: #4a4e69;
   padding: 10px 0px 10px 10px;
 }
 
@@ -53,7 +53,7 @@ object-fit: cover;
   .bio {
     color: #ffffff;
     font-size: 24px;
-    font-family: 'Work Sans';
+    font-family: 'Halant', serif;
   }
 
 .buttonBox {
@@ -104,7 +104,7 @@ object-fit: cover;
 
 .mins {
   display: inline-block;
-  font-family: Poppins;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.3px;
@@ -115,7 +115,7 @@ object-fit: cover;
 }
 
 .description {
-  font-family: Work Sans;
+  font-family: 'Halant', serif;
   font-size: 14px;
   font-weight: 300;
   line-height: 1.29;
@@ -149,4 +149,8 @@ footer {
   img {
     height: 40vh;
   }
+}
+
+a {
+  color: #4a4e69;
 }
