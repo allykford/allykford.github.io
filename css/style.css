@@ -145,7 +145,7 @@ object-fit: cover;
     align-content: center;
     padding: 10px 20px;
     color: rgba(255, 255, 255, 0.75);
-    min-height: 10vh;
+    min-height: 25vh;
   }
 
 @media all and (max-width:700px) {
