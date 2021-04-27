@@ -137,6 +137,10 @@ object-fit: cover;
   /* min-width: 500px; */
   margin: auto; }
 
+footer {
+  min-height: 15vh
+}
+
   footer div {
     height: 100%;
     font-family: 'Halant', serif;
